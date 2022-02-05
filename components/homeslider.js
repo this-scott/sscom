@@ -16,27 +16,27 @@ export default function Homeslider() {
                     <SwiperSlide>
                     <div className={slidecss.swipedimg}>
                         <Image src="/images/16.jpg"
-                        layout="fill" alt='gary'
+                        layout="fill" alt='gary' priority
                         />
                     </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={slidecss.swipedimg}>
                             <Image src="/images/70.jpg"
-                            layout="fill"
+                            layout="fill" priority
                             />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={slidecss.swipedimg}>
                             <Image src="/images/30.jpg"
-                            layout="fill"
+                            layout="fill" priority
                             />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide><div className={slidecss.swipedimg}>
                             <Image src="/images/81.jpg"
-                            layout="fill"
+                            layout="fill" priority
                             />
                         </div>
                     </SwiperSlide>
@@ -46,3 +46,4 @@ export default function Homeslider() {
         </div>
     )
 }
+
