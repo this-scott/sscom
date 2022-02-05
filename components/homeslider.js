@@ -15,28 +15,23 @@ export default function Homeslider() {
             autoplay={{delay: 8000}}>
                     <SwiperSlide>
                     <div className={slidecss.swipedimg}>
-                        <Image src="/images/16.jpg"
-                        layout="fill" alt='gary' priority
-                        />
+                        <img src="/images/16.jpg"
+                        layout="fill" alt='gary'/>
                     </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={slidecss.swipedimg}>
-                            <Image src="/images/70.jpg"
-                            layout="fill" priority
-                            />
+                            <img src="/images/70.jpg"/>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={slidecss.swipedimg}>
-                            <Image src="/images/30.jpg"
-                            layout="fill" priority
-                            />
+                            <img src="/images/30.jpg"/>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide><div className={slidecss.swipedimg}>
-                            <Image src="/images/81.jpg"
-                            layout="fill" priority
+                            <img src="/images/81.jpg"
+                            layout="fill"
                             />
                         </div>
                     </SwiperSlide>

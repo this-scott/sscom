@@ -44,8 +44,11 @@
 }
 .swipedimg {
     height: 47em;
-    margin-left: 1%;
-    margin-right: 1%;
+}
+.swipedimg img{
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
 }
 
 .fancytext {
