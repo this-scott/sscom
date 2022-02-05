@@ -49,10 +49,12 @@
 .fancytext {
     position: absolute;
     top: 25%;
-    margin: center auto;
+    margin: auto;
     z-index: 5;
     background-color: rgba(255, 255, 255, .5);
     border: 6px solid black;
     font-size: 2em;
+    display: flex;
+    justify-self: center;
     padding-inline: 6px;
 }
