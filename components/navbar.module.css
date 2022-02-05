@@ -1,0 +1,67 @@
+.header {
+    border-bottom: 3px solid lightgray;
+    top: 0;
+    position: sticky;
+    z-index: 10000;
+    background: white;
+    overflow: hidden;
+    width: 100%;
+}
+
+.h1 {
+    font-size: 200%;
+    text-align: center;
+}
+
+.lcontainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.navcontainer {
+    text-align: center;
+    margin-right: auto;
+    height: 6rem;
+    align-items:center;
+    display: flex;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.tlink {
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+}
+
+.item {
+    margin-left: 1rem;
+}
+
+.linkw {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 125%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.linkw:hover {
+    border: 2px solid lightgray;
+    border-radius: 50px;
+}
+
+.h2 {
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+}

@@ -1,0 +1,19 @@
+.titlediv {
+    text-align: center;
+    font-style: bold;
+    margin-top: 1.5em;
+    font-size: 1.5em;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.box {
+    border: 3px solid lightgray;
+    text-align: center;
+    margin: center;
+}
