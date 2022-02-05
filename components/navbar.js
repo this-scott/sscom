@@ -16,14 +16,14 @@ export default function Navbar({}) {
                 <nav className={navstyles.navcontainer}>
                     <div className={navstyles.links}/*links that are broken rn, to be fixed*/>
                         <h2>
-                            <Link href={"/resume"}>
+                            <Link href={"file:/documents/resume.pdf"}>
                                 <a className={navstyles.linkw}>Resume</a>
                             </Link>
                         </h2>
                         <h2>
-                            <Link href={"anotherpageIdon'thave"}>
-                                <a className={navstyles.linkw}>Projects</a>
-                            </Link>
+                            <a className={navstyles.linkw} href="https://github.com/this-scott">
+                                Projects
+                            </a>
                         </h2>
                         <h2>
                             <Link href={"anotherpageIdon'thave"}>
