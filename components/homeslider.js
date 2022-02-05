@@ -42,7 +42,7 @@ export default function Homeslider() {
                     </SwiperSlide>
             </Swiper>
             <div className={slidecss.fancytext}>
-                <h1>The Scott Styslinger Experience</h1> I cannot crop pictures but I can write code</div>
+                <h1>The Scott Styslinger Experience</h1> Currently a work in progress. Sorry mobile users D:</div>
         </div>
     )
 }
