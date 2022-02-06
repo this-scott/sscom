@@ -1,14 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Navbar from '../components/navbar'
+import Navbar from "../components/navbar";
+import Pdfdiv from "../components/pdfdiv";
+import { Document } from "react-pdf";
 
 export default function Resume() {
-  return (
-    <Navbar>
-      <Head>
-        <title>sscom2</title>
-      </Head>
-    </Navbar>
-  )
+    return (
+        <>
+        <Navbar></Navbar>
+        <Pdfdiv></Pdfdiv>
+        </>
+    )
 }

@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import navstyles from './navbar.module.css'
+import navstyles from './navbar.module.css';
 
 export default function Navbar({}) {
     return (
@@ -16,9 +16,7 @@ export default function Navbar({}) {
                 <nav className={navstyles.navcontainer}>
                     <div className={navstyles.links}/*links that are broken rn, to be fixed*/>
                         <h2>
-                            <Link href={"file:/documents/resume.pdf"}>
-                                <a className={navstyles.linkw}>Resume</a>
-                            </Link>
+                            <a href="/resume" className={navstyles.linkw}>Resume</a>
                         </h2>
                         <h2>
                             <a className={navstyles.linkw} href="https://github.com/this-scott">
@@ -26,7 +24,7 @@ export default function Navbar({}) {
                             </a>
                         </h2>
                         <h2>
-                            <Link href={"anotherpageIdon'thave"}>
+                            <Link href={"/cast"}>
                                 <a className={navstyles.linkw}>Cast And Crew</a>
                             </Link>
                         </h2>
