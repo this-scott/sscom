@@ -14,7 +14,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "reactdom": "^2.0.0",
-    "swiper": "^8.0.3"
+    "swiper": "^8.0.3",
+    "react-pdf": "^5.7.0"
   },
   "devDependencies": {
     "eslint": "8.8.0",
