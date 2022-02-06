@@ -16,7 +16,9 @@ export default function Navbar({}) {
                 <nav className={navstyles.navcontainer}>
                     <div className={navstyles.links}/*links that are broken rn, to be fixed*/>
                         <h2>
-                            <a href="/resume" className={navstyles.linkw}>Resume</a>
+                            <Link href={"/resume"}>
+                                <a className={navstyles.linkw}>Resume</a>
+                            </Link>
                         </h2>
                         <h2>
                             <a className={navstyles.linkw} href="https://github.com/this-scott">
