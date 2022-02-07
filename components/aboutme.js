@@ -8,7 +8,7 @@ export default function Aboutme(){
             </div>
             <div className={aboutme.row}>
                 <div className={aboutme.box}>
-                    <h1>Web dev sucks</h1>
+                    <h1>I have 16 hours of screen recorded video of me making this, fml</h1>
                     <p></p>
                 </div>
             </div>
