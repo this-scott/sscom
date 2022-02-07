@@ -36,7 +36,7 @@ export default function Homeslider() {
                     </SwiperSlide>
             </Swiper>
             <div className={slidecss.fancytext}>
-                <h1>The Scott Styslinger Experience</h1> Version 0.9:UGH (Still Broken on Mobile)</div>
+                <h1>The Scott Styslinger Experience</h1> Version 0.8:BUG (Still Broken on Mobile)</div>
         </div>
     )
 }

@@ -8,7 +8,7 @@ export default function Aboutme(){
             </div>
             <div className={aboutme.row}>
                 <div className={aboutme.box}>
-                    <h1>I have 16 hours of screen recorded video of me making this, fml</h1>
+                    <h1>Roadmap: mobile optimizations then prerendering to improve load speeds. Projects gets updated after</h1>
                     <p></p>
                 </div>
             </div>
