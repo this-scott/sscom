@@ -1,0 +1,14 @@
+.cardscontainercontainer {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.title {
+    margin-left: 42%;
+    font-size: 200%;
+}

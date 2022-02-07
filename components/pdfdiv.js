@@ -9,7 +9,7 @@ export default function Pdfdiv() {
         <div className={resustyle.bigcontainer}>
             <div className={resustyle.miniheader}>
                 <div className={resustyle.minibar}>
-                        <p>I might throw my old one on here for content</p>
+                        <p>This is my resume. I might throw my old one on here for more content</p>
                     <div className={resustyle.miniminibar}>
                         <h4>Want a Copy?</h4>
                         <div className={resustyle.div2}><a href="/documents/resume.pdf" download="ScottStyslingerResume.pdf">
