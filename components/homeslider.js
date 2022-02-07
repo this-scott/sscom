@@ -36,7 +36,7 @@ export default function Homeslider() {
                     </SwiperSlide>
             </Swiper>
             <div className={slidecss.fancytext}>
-                <h1>The Scott Styslinger Experience</h1> Under Construction: Check back 2/7/2022 12:00AM</div>
+                <h1>The Scott Styslinger Experience</h1> Version 0.9:UGH (Projects is broken on mobile)</div>
         </div>
     )
 }

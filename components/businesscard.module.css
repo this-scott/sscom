@@ -3,10 +3,8 @@
     height: 17em;
     display: flex;
     background-color: rgb(236, 236, 236);
-    width: 48%;
-    margin-right: 2%;
-    margin-bottom: 2%;
     overflow: hidden;
+    margin-bottom: 2%;
 }
 
 .leftside {

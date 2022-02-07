@@ -1,8 +1,6 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import useWindowDimensions from '../hooks/useWindowDimensions';
 import navstyles from './navbar.module.css';
-import Image from 'next/image';
 
 //the navbar can be redone with everything being set by Justify-content:space-between and no margins
 export default function Navbar({}) {
