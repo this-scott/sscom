@@ -6,12 +6,15 @@ import navstyles from './navbar.module.css';
 export default function Navbar({}) {
 
     const [width, setWidth] = React.useState(0);
+    const [height, setHeight] = React.useState(0);
     React.useEffect(() => {
         function handleResize() {
             setWidth(window.innerWidth);
+            setHeight(window.innerHeight);
         }
 
         setWidth(window.innerWidth)
+        setHeight(window.innerHeight)
         console.log(width)
 
         window.addEventListener('resize', handleResize);
@@ -32,6 +35,21 @@ export default function Navbar({}) {
                     </div>
                 </div>
             )
+        } else if(width < 765) {
+            return (
+                <div className={navstyles.header}>
+                <div className={navstyles.lcontainer2}>
+                    <div className={navstyles.tlink}>
+                        <h1 className={navstyles.h1}>
+                            <Link href={"/"}>
+                                <a className={navstyles.linkw}>Scott Styslinger</a>
+                            </Link>
+                        </h1>
+                    </div>
+                    <FullBar width={width} height={height}></FullBar>
+                </div>
+            </div>
+            )
         } else {
             return (
                 <div className={navstyles.header}>
@@ -48,8 +66,6 @@ export default function Navbar({}) {
             </div>
             )
         }
-
-    
 }
 
 export function Rnavbar() {
@@ -87,8 +103,8 @@ export function RBar() {
 
     return (
         <div className={navstyles.dropdown}>
-            <button onClick={() => togglehide()}><img className={navstyles.hambuga} src="/images/Hamburger.png"/></button>
-            <div style={{ display: hide ? 'none' : 'block'}} className={navstyles.content}>
+            <button onClick={() => togglehide(!hide)}><img className={navstyles.hambuga} src="/images/Hamburger.png"/></button>
+            <div className={hide ? navstyles.content : navstyles.cshown}>
                 <div className={navstyles.contentbar}>
                     <Link href={"/resume"}>
                         <a>Resume</a>
@@ -106,9 +122,39 @@ export function RBar() {
                 </div>
                 <div className={navstyles.contentbar}>
                     <a href="https://www.linkedin.com/in/this-scott/">LinkedIn</a>
-                </div>
+                </div> 
             </div>
+        </div>
+    )
+}
 
+export function FullBar(props) {
+
+    const [hide, togglehide] = useState(true);
+
+    return (
+        <div className={navstyles.dropdown}>
+            <button onClick={() => togglehide(!hide)}><img className={navstyles.hambuga} src="/images/Hamburger.png"/></button>
+            <div style={hide ? {width: props.width} : {height: props.height-(100), width:props.width+(props.width*.1), marginLeft:-props.width+(props.width*.15)}} className={hide ? navstyles.fcontent : navstyles.fcshown}>
+                <div className={navstyles.contentbar}>
+                    <Link href={"/resume"}>
+                        <a><div className={navstyles.link}><h2>Resume</h2></div></a>
+                    </Link>
+                </div>
+                <div className={navstyles.contentbar}>
+                    <a href="https://github.com/this-scott">
+                        <div className={navstyles.link}><h2>Projects</h2></div>
+                    </a>
+                </div>
+                <div className={navstyles.contentbar}>
+                    <Link href={"/cast"}>
+                        <a><div className={navstyles.link}><h2>Cast and Crew</h2></div></a>
+                    </Link>
+                </div>
+                <div className={navstyles.contentbar}>
+                    <a href="https://www.linkedin.com/in/this-scott/"><div className={navstyles.link}><h2>LinkedIn</h2></div></a>
+                </div> 
+            </div>
         </div>
     )
 }
