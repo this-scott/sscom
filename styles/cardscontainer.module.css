@@ -12,13 +12,14 @@
     text-align: center;
     width: 100%;
     font-size: 3em;
+    border-bottom: 2px solid black;
 }
 
 .cardscontainercontainer2 {
     width: 80%;
     height: 100%;
     margin-left: 10%;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: space-around;
 }
