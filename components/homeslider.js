@@ -41,4 +41,4 @@ function Homeslider() {
     )
 }
 
-export default Homeslider()
+export default Homeslider
