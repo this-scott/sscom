@@ -5,7 +5,7 @@ import "swiper/css/autoplay";
 import slidecss from './homeslider.module.css';
 import { Navigation, Autoplay } from 'swiper';
 
-export default function Homeslider() {
+function Homeslider() {
     return (
         <div className={slidecss.swipediv}>
             <Swiper
@@ -41,3 +41,4 @@ export default function Homeslider() {
     )
 }
 
+export default Homeslider()
