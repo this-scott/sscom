@@ -1,0 +1,30 @@
+.cardscontainercontainer {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    font-size: 3em;
+    border-bottom: 2px solid black;
+}
+
+.cardscontainercontainer2 {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardcontainer {
+    width: 48%;
+    margin-right: 2%;
+}

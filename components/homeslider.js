@@ -4,34 +4,38 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import slidecss from './homeslider.module.css';
 import { Navigation, Autoplay } from 'swiper';
+import Image from 'next/image';
 
 function Homeslider() {
     return (
         <div className={slidecss.swipediv}>
             <Swiper
+            priority='true'
             modules={[Navigation, Autoplay]}
             navigation
             autoplay={{delay: 8000}}>
-                    <SwiperSlide>
+                    <SwiperSlide priority='true'>
                     <div className={slidecss.swipedimg}>
-                        <img src="/images/16.jpg"
-                        layout="fill" alt='gary'/>
+                        <Image src="/images/16.jpg"
+                        layout="fill" alt='gary' priority='true'/>
                     </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={slidecss.swipedimg}>
-                            <img src="/images/70.jpg"/>
+                            <img src="/images/70.jpg"
+                            layout="fill" alt='2'/>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={slidecss.swipedimg}>
-                            <img src="/images/30.jpg"/>
+                            <img src="/images/30.jpg"
+                            layout="fill" alt='3'/>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide><div className={slidecss.swipedimg}>
+                    <SwiperSlide>
+                        <div className={slidecss.swipedimg}>
                             <img src="/images/81.jpg"
-                            layout="fill"
-                            />
+                            layout="fill" alt='4'/>
                         </div>
                     </SwiperSlide>
             </Swiper>
