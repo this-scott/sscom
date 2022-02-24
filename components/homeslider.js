@@ -40,8 +40,8 @@ function Homeslider() {
                     </SwiperSlide>
             </Swiper>
             <div className={slidecss.fancytext}>
-                <h1>The Scott Styslinger Experience</h1> Version 0.8:BUG (Still Broken on Mobile)</div>
-        </div>
+                <h1>The Scott Styslinger Experience</h1> Version 0.8.2:BUGGED. Now featuring small optimizations :D</div>
+            </div>
     )
 }
 

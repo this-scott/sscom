@@ -8,7 +8,7 @@ export default function Aboutme(){
             </div>
             <div className={aboutme.row}>
                 <div className={aboutme.box}>
-                    <h1>Roadmap: mobile optimizations then prerendering to improve load speeds. Projects gets updated after</h1>
+                    <h1>Roadmap: Bugfixes & More small optimizations -> Getting funky with component rendering -> Fixing Resume on mobile(I blame React-PDF) -> Giving projects an actual page -> Add your own businesscard(that'll be fun) -> and last and very much least: socials in the navbar</h1>
                     <p></p>
                 </div>
             </div>
