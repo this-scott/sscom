@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import cards from './businesscard.module.css';
 import Image from "next/image";
 
-export default function cardContainer({}) {
+export default function CardContainer({}) {
 
     const [width, setWidth] = React.useState(0);
     React.useEffect(() => {
