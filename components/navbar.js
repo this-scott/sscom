@@ -42,7 +42,7 @@ export default function Navbar({}) {
                     <div className={navstyles.tlink}>
                         <h1 className={navstyles.h1}>
                             <Link href={"/"}>
-                                <a className={navstyles.linkw}>Scott Styslinger</a>
+                                <a className={navstyles.linkf}>Scott Styslinger</a>
                             </Link>
                         </h1>
                     </div>
@@ -57,7 +57,7 @@ export default function Navbar({}) {
                     <div className={navstyles.tlink}>
                         <h1 className={navstyles.h1}>
                             <Link href={"/"}>
-                                <a className={navstyles.linkw}>Scott Styslinger</a>
+                                <a className={navstyles.linkf}>Scott Styslinger</a>
                             </Link>
                         </h1>
                     </div>
@@ -107,21 +107,23 @@ export function RBar() {
             <div className={hide ? navstyles.content : navstyles.cshown}>
                 <div className={navstyles.contentbar}>
                     <Link href={"/resume"}>
-                        <a>Resume</a>
+                        <a><div className={navstyles.link}>Resume</div></a>
                     </Link>
                 </div>
                 <div className={navstyles.contentbar}>
                     <a href="https://github.com/this-scott">
-                        Projects
+                        <div className={navstyles.link}>Projects</div>
                     </a>
                 </div>
                 <div className={navstyles.contentbar}>
                     <Link href={"/cast"}>
-                        <a>Cast and Crew</a>
+                        <a><div className={navstyles.link}>Cast and Crew</div></a>
                     </Link>
                 </div>
                 <div className={navstyles.contentbar}>
-                    <a href="https://www.linkedin.com/in/this-scott/">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/this-scott/">
+                        <div className={navstyles.link}>LinkedIn</div>
+                    </a>
                 </div> 
             </div>
         </div>

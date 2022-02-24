@@ -9,14 +9,12 @@
 
 .h1 {
     font-size: 200%;
-    text-align: center;
 }
 
 .lcontainer {
     width: 100%;
     margin: 0 auto;
     padding: 0 1rem;
-    text-align: center;
     align-items: center;
     justify-content: space-around;
     display: flex;
@@ -26,7 +24,6 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 1rem;
-    text-align: center;
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -51,7 +48,6 @@
     justify-content: space-between;
     height: 100%;
     align-items: center;
-    text-align: center;
     margin-left: 1em;
 }
 
@@ -68,6 +64,18 @@
 .linkw:hover {
     border: 2px solid lightgray;
     border-radius: 50px;
+}
+
+.linkf {
+    margin: 1rem;
+    font-size: 125%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.linkf:hover {
+    font-size: 150%;
+    padding: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 .h2 {
