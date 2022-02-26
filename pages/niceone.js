@@ -15,7 +15,42 @@ export default function NineOne() {
             title: "TylerTinyDesk",
             artist: "Tyler the Creator",
             src: "../songs/Tyler.mp3",
-        }
+        },
+        {
+            title: "Plenty",
+            artist: "B Rodgers",
+            src: "../songs/b rodgers - plenty.mp3",
+        },
+        {
+            title: "College",
+            artist: "B Rodgers",
+            src: "../songs/b rodgers college.mp3",
+        },
+        {
+            title: "Dreaming",
+            artist: "B Rodgers",
+            src: "../songs/b rodgers dreaming.mp3",
+        },
+        {
+            title: "Feeling Good",
+            artist: "B Rodgers",
+            src: "../songs/b rodgers feeling good.mp3",
+        },
+        {
+            title: "+",
+            artist: "B Rodgers",
+            src: "../songs/b rogers + produced by 3tos.mp3",
+        },
+        {
+            title: "Boom Bap",
+            artist: "B Rodgers",
+            src: "../songs/b rogers boop bap.mp3",
+        },
+        {
+            title: "Reminence",
+            artist: "B Rodgers",
+            src: "../songs/b rogers reminence.mp3",
+        },
     ]);
     const [currentSongIndex, setCurrentSongIndex] = useState(0);
     const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1);
