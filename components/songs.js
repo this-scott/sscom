@@ -4,7 +4,7 @@ import Player from "../components/bplayer";
 import Image from "next/image";
 import React, {useEffect, useState } from 'react';
 
-export default function songs() {
+export default function Songs() {
     const [song, setsong] = useState('');
     const [title, settitle] = useState('');
     const [artist, setartist] = useState('');
