@@ -29,6 +29,18 @@ export const songdata = [
         src: "/songs/hampdenparks.mp3",
         isrc: "/images/simgs/edubble.jpg",
     },
+    {  
+        title: "Touch My Coffee (Eminem w/ Persona 5)",
+        artist: "BotanicSage",
+        src: "/songs/Touch My Coffee (Eminem vs 'Persona 5')-p6Jskb8t_M0.mp3",
+        isrc: "/images/simgs/botanicsage.jpg",
+    },
+    {  
+        title: "K.K Good Day (K.K. Slider w/ Ice Cube)",
+        artist: "BotanicSage",
+        src: "public/songs/K.K. Good Day (KK Slider vs Ice Cube)-RV5jJrv2kjY.mp3",
+        isrc: "/images/simgs/botanicsage.jpg",
+    },
     {
         title: "Plenty",
         artist: "B Rodgers",
