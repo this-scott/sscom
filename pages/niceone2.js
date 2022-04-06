@@ -7,7 +7,7 @@ export default function MusicPage() {
     return(
         <>
         <Head>
-            <title>NPR please don't sue me</title>
+            <title>NPR please dont sue me</title>
         </Head>
         <Navbar></Navbar>
         <SongList></SongList>
