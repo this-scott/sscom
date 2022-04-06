@@ -1,0 +1,65 @@
+/*CONNECTED TO ENTIRE PAGE*/
+.container {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px lightgray solid;
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.lcontainer {
+    width: 100%;
+}
+
+.albumimage {
+    width: 20%;
+    position: relative;
+}
+.songcredits {
+    width: 20%;
+}
+.audioplayer {
+    width: 59%;
+    padding-right: 1%;
+}
+
+.cardcontainer {
+    width: 49%;
+    display: flex;
+}
+
+.aimagecontainer {
+    width: 20%;
+}
+
+.songscontainer {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.stitle {
+    margin-top: .45em;
+    margin-bottom: .5em;
+}
+.sartist {
+    margin: 0;
+    color: gray;
+}
+
+.playbutton {
+    width: 20%;
+    margin-left: auto;
+}
+
+.circularborder {
+    border-radius: 50%;
+}
+
+.cardright {
+    padding-left: 1%;
+}

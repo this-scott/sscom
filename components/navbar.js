@@ -15,7 +15,6 @@ export default function Navbar({}) {
 
         setWidth(window.innerWidth)
         setHeight(window.innerHeight)
-        console.log(width)
 
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
