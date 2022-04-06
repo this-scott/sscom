@@ -123,7 +123,12 @@ export function RBar() {
                     <a href="https://www.linkedin.com/in/this-scott/">
                         <div className={navstyles.link}>LinkedIn</div>
                     </a>
-                </div> 
+                </div>
+                <div className={navstyles.contentbar}>
+                    <Link href={"/niceone"}>
+                        <a><div className={navstyles.link}>Shhhhh</div></a>
+                    </Link>
+                </div>
             </div>
         </div>
     )
@@ -154,7 +159,12 @@ export function FullBar(props) {
                 </div>
                 <div className={navstyles.contentbar}>
                     <a href="https://www.linkedin.com/in/this-scott/"><div className={navstyles.link}><h2>LinkedIn</h2></div></a>
-                </div> 
+                </div>
+                <div className={navstyles.contentbar}>
+                    <Link href={"/niceone"}>
+                        <a><div className={navstyles.link}><h2>Shhhhh</h2></div></a>
+                    </Link>
+                </div>
             </div>
         </div>
     )
