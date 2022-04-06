@@ -5,9 +5,9 @@ import Image from "next/image";
 import React, {useEffect, useState } from 'react';
 
 export default function songs() {
-    const [song, setsong] = React.useState('');
-    const [title, settitle] = React.useState('');
-    const [artist, setartist] = React.useState('');
+    const [song, setsong] = useState('');
+    const [title, settitle] = useState('');
+    const [artist, setartist] = useState('');
 
     function changeSong(song, title, artist) {
         setsong(song)
