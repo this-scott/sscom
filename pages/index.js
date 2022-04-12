@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Navbar from '../components/navbar'
+import Navbar from '../components/navbar/navbar'
 import React from 'react'
-import Homeslider from '../components/homeslider'
-import Aboutme from '../components/aboutme'
+import Homeslider from '../components/homeslider/homeslider'
+import Aboutme from '../components/aboutme/aboutme'
 
 
 //home page

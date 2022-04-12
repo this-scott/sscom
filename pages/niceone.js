@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Navbar from "../components/navbar";
-import SongList from "../components/songs";
+import Navbar from "../components/navbar/navbar";
+import SongList from "../components/musicplayer/songs";
 
 export default function MusicPage() {
     return(

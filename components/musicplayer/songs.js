@@ -1,6 +1,6 @@
 import BP from "./bplayer.module.css";
 import {songdata} from "./songdata";
-import Player from "../components/bplayer";
+import Player from "./bplayer";
 import Image from "next/image";
 import React, {useEffect, useState } from 'react';
 

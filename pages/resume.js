@@ -1,5 +1,5 @@
-import Navbar from "../components/navbar";
-import Pdfdiv from "../components/pdfdiv";
+import Navbar from "../components/navbar/navbar";
+import Pdfdiv from "../components/pdfdiv/pdfdiv";
 import { Document } from "react-pdf";
 
 export default function Resume() {

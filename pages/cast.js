@@ -1,6 +1,6 @@
-import CardContainer from "../components/cardcontainer";
+import CardContainer from "../components/businesscards/cardcontainer";
 import Head from "next/head";
-import Navbar from "../components/navbar";
+import Navbar from "../components/navbar/navbar";
 
 export default function Cast() {
     return (
