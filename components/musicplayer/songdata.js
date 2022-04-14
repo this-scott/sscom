@@ -38,7 +38,7 @@ export const songdata = [
     {  
         title: "K.K Good Day (K.K. Slider w/ Ice Cube)",
         artist: "BotanicSage",
-        src: "public/songs/K.K. Good Day (KK Slider vs Ice Cube)-RV5jJrv2kjY.mp3",
+        src: "/songs/K.K. Good Day (KK Slider vs Ice Cube)-RV5jJrv2kjY.mp3",
         isrc: "/images/simgs/botanicsage.jpg",
     },
     {
