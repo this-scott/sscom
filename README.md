@@ -1,7 +1,3 @@
-# Hiiiiiiiiii
-To Mackie, Kenneth, and Kasey, who I told that unruly customers was the biggest lie on my resume, I lied.
-Web development is and this site has been giving me trouble but it has a roadmap.
-
 ## Priorities
 1. Having the resume perform a wget on my resume.pdf or importing a pdf viewer library
 2. Setting up the cast and crew page
