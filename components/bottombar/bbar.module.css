@@ -1,0 +1,48 @@
+
+.barcontainer {
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ntitle {
+    text-align: center;
+}
+.socials {
+    width: 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+.sicondiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.simg {
+    width: 3.5em;
+    height: 3.5em;
+    object-fit: cover;
+    position: relative;
+    margin-top: 6%;
+}
+
+.simg:hover {
+    width: 4em;
+    height: 4em;
+}
+
+.links {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.linktext {
+    text-align: center;
+    padding-bottom: 20%;
+}
+.linktext:hover {
+    font-size: 115%;
+}

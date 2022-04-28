@@ -9,13 +9,13 @@ export const songdata = [
         title: "Tyler the Creator Tiny Desk",
         artist: "Tyler the Creator",
         src: "/songs/Tyler.mp3",
-        isrc: "/images/gary.jpeg",
+        isrc: "/images/simgs/tyler.jpg",
     },
     {
         title: "Anderson .Paak Tiny Desk",
         artist: "Anderson .Paak",
         src: "/songs/Anderson .Paak & The Free Nationals - NPR Music Tiny Desk Concert-ferZnZ0_rSM.mp3",
-        isrc: "/images/gary.jpeg",
+        isrc: "/images/simgs/ap.jpg",
     },
     {  
         title: "Loosen Up",
@@ -40,6 +40,18 @@ export const songdata = [
         artist: "BotanicSage",
         src: "/songs/K.K. Good Day (KK Slider vs Ice Cube)-RV5jJrv2kjY.mp3",
         isrc: "/images/simgs/botanicsage.jpg",
+    },
+    {
+        title: "Interior Crocodile Aligator",
+        artist: "Chip Da Ripper",
+        src: "/songs/InteriorCrocodile.mp3",
+        isrc: "/images/gary.jpeg"
+    },
+    {
+        title: "Hi Ho",
+        artist: "B Rodgers",
+        src: "/songs/hiho.mp3",
+        isrc: "/images/gary.jpeg",
     },
     {
         title: "Plenty",

@@ -13,6 +13,7 @@ function Homeslider() {
             priority='true'
             modules={[Navigation, Autoplay]}
             navigation
+            loop='true'
             autoplay={{delay: 8000}}>
                     <SwiperSlide priority='true'>
                     <div className={slidecss.swipedimg}>
