@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function bottombar() {
     return (
-        <div className={bbar.barcontainer}>
+        <footer className={bbar.barcontainer}>
             <div className={bbar.socials}>
                 <h2 className={bbar.ntitle}>Socials</h2>
                 <div className={bbar.sicondiv}>
@@ -38,6 +38,6 @@ export default function bottombar() {
                         <a><div className={bbar.linktext}>Shhhhh</div></a>
                     </Link>
             </div>
-        </div>
+        </footer>
     )
 }

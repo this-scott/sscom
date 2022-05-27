@@ -15,10 +15,8 @@ export default function Home() {
       <title>Home - ScottStyslinger.com</title>
       <meta name="keywords" content='Scott Styslinger, Scott, Styslinger'/>
     </Head>
-    <Navbar></Navbar>
     <Homeslider></Homeslider>
     <Aboutme></Aboutme>
-    <Bottombar></Bottombar>
     </>
   )
 }

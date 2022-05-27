@@ -1,14 +1,16 @@
 import Link from 'next/link';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import navstyles from './navbar.module.css';
 
 //the navbar can be redone with everything being set by Justify-content:space-between and no margins
 export default function Navbar({}) {
-    const [width, setWidth] = React.useState(0);
-    const [height, setHeight] = React.useState(0);
+    const [width, setWidth] = useState(0);
+    const [height, setHeight] = useState(0);
+    const [rs, setRs] = useState(0);
+    const [shrink, setShrink] = useState(0);
     
     //get page width
-    React.useEffect(() => {
+    useEffect(() => {
         function handleResize() {
             setWidth(window.innerWidth);
             setHeight(window.innerHeight);
@@ -52,11 +54,10 @@ export default function Navbar({}) {
     
         return () => window.removeEventListener("scroll", onScroll);
         }, [scrollDir]);
-        
+       
+        //0
         if(width > 1275) {
             return (
-                <>
-                <div className={navstyles.filler}/>
                 <div className={navstyles.header} style={scrollDir ? {transition: 'opacity 200ms'} : {opacity: '50%'}}>
                     <div className={navstyles.lcontainer}>
                         <div className={navstyles.tlink}>
@@ -69,9 +70,9 @@ export default function Navbar({}) {
                         <Rnavbar></Rnavbar>
                     </div>
                 </div>
-                </>
             )
-        } else if(width < 765) {
+        } //1
+        else if(width < 765) {
             return (
                 <div className={navstyles.header} style={scrollDir ? {transition: 'opacity 200ms'} : {opacity: '50%'}}>
                 <div className={navstyles.lcontainer2}>
@@ -86,7 +87,8 @@ export default function Navbar({}) {
                 </div>
             </div>
             )
-        } else {
+        } //2
+        else {
             return (
                 <div className={navstyles.header} style={scrollDir ? {transition: 'opacity 200ms'} : {opacity: '50%'}}>
                 <div className={navstyles.lcontainer2}>

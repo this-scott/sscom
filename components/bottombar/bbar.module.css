@@ -1,7 +1,7 @@
 
 .barcontainer {
     width: 100%;
-    background-color: lightgray;
+    background-color: #444444;
     display: flex;
     justify-content: space-evenly;
 }

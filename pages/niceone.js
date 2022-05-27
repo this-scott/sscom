@@ -9,9 +9,7 @@ export default function MusicPage() {
         <Head>
             <title>NPR please dont sue me</title>
         </Head>
-        <Navbar></Navbar>
         <SongList></SongList>
-        <Bottombar></Bottombar>
         </>
     )
 }

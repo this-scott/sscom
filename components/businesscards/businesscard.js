@@ -11,7 +11,7 @@ export default function Businesscard(props) {
                     </div>
                 </div>
                 <div className={cardS.rightside}>
-                    <h1>{props.name}</h1>
+                    <h1 style={{color: 'black'}}>{props.name}</h1>
                         <h2>Education</h2>
                         <h4>{props.college}</h4>
                         <h4>Major: {props.major}</h4>
