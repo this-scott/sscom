@@ -1,0 +1,25 @@
+.teble{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.container {
+    background-color: lightgray;
+    height: 40em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.adder {
+
+}
+
+.adder h2 {
+    margin-block-start: 0;
+    padding-top: .5em;
+}
+
+.viewer {
+    padding-top: .5em;
+}
+
