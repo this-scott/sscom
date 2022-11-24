@@ -109,6 +109,11 @@ export function Rnavbar() {
         <nav className={navstyles.navcontainer}>
         <div className={navstyles.links}/*links that are broken rn, to be fixed*/>
             <h2>
+                <Link href={"/cast"}>
+                    <a className={navstyles.linkw}>Why Scott?</a>
+                </Link>
+            </h2>
+            <h2>
                 <Link href={"/resume"}>
                     <a className={navstyles.linkw}>Resume</a>
                 </Link>
@@ -117,11 +122,6 @@ export function Rnavbar() {
                 <a className={navstyles.linkw} href="https://github.com/this-scott">
                     Projects
                 </a>
-            </h2>
-            <h2>
-                <Link href={"/cast"}>
-                    <a className={navstyles.linkw}>Cast And Crew</a>
-                </Link>
             </h2>
             <h2>
                 <a className={navstyles.linkw} href="https://www.linkedin.com/in/this-scott/">
@@ -153,7 +153,7 @@ export function RBar() {
                 </div>
                 <div className={navstyles.contentbar}>
                     <Link href={"/cast"}>
-                        <a><div className={navstyles.link}>Cast and Crew</div></a>
+                        <a><div className={navstyles.link}>Why Scott?</div></a>
                     </Link>
                 </div>
                 <div className={navstyles.contentbar}>
@@ -186,7 +186,7 @@ export function FullBar(props) {
                 </div>
                 <div className={navstyles.contentbar}>
                     <Link href={"/cast"}>
-                        <a><div className={navstyles.link}><h2>Cast and Crew</h2></div></a>
+                        <a><div className={navstyles.link}><h2>Why Scott?</h2></div></a>
                     </Link>
                 </div>
                 <div className={navstyles.contentbar}>

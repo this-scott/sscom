@@ -7,14 +7,36 @@
 
 .row {
     display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.box {
-    border: 3px solid lightgray;
+.pcontainer {
+    /*border: 3px solid lightgray;*/
     text-align: center;
-    padding-left: 1%;
-    padding-right: 1%;
-    margin-bottom: 1%;
+    width: 45%;
+}
+
+/*Work on having this expanded and then not constraining as screen shrinks*/
+.pimg {
+    width: 16em;
+    height: 20em;
+    object-fit: cover;
+    position: relative;
+    float: right;
+    margin-bottom: 2em;
+    margin-right: 2em;
+}
+
+.pimg:hover {
+    width: 20em;
+    height: 25em;
+    object-fit: cover;
+    position: relative;
+}
+.bbox {
+    margin-left: 2.5%;
+    width: 85%;
+    color: white;
+    /*font-size: large;*/
 }

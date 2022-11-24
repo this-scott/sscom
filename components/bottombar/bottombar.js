@@ -29,7 +29,7 @@ export default function bottombar() {
                     Projects
                 </a>
                 <Link href={"/cast"}>
-                    <a className={bbar.linktext}>Associates</a>
+                    <a className={bbar.linktext}>About Me</a>
                 </Link>
                 <a className={bbar.linktext} href="https://www.linkedin.com/in/this-scott/">
                     LinkedIn
