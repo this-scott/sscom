@@ -11,7 +11,7 @@ export default function Aboutme(){
     3. What is this page
     */
     const [iBioHov, setiBioHov] = react.useState(false)
-    const [bio, setBio] = React.useState(<p>If I could desribe myself in a few words they would be 'curiosity towards efficiency'. I have always been a curious person. 
+    const [bio, setBio] = React.useState(<p>If I could desribe myself in a few words they would be "curiosity towards efficiency". I have always been a curious person. 
     As a kid, I remember connecting the cables to setup my Wii and wondering what each cable was for. In elementary school, I was installing games Wizard 101 onto my computer(without asking for parent permission before going online:). 
     By middle school I had accidentally learned the ins and outs of file explorer from modding minecraft so many times and watching videos about hardware for fun.
     Despite my technological interest, I never began programming until my high school junior year. It was definitely rough at first the knowledge I had accumulated 
