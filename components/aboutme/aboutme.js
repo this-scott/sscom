@@ -68,7 +68,7 @@ export default function Aboutme(){
                             <p>Experimented with Google Maps and Alpaca APIs for various front and back end applications</p>
                         </div>}></Item></li>
                         <li><Item text={<h4>1 year Penetration Testing using Wireshark, NMap, Metasploit</h4>} ltext={<div>
-                            <p>I don't have a lot of hands on experiences in the pentesting field by I like to play around with and research the tools</p>
+                            <p>I don&apos;t have a lot of hands on experiences in the pentesting field by I like to play around with and research the tools</p>
                         </div>}></Item></li>
                     </ul></div>
                     </div>
@@ -79,7 +79,7 @@ export default function Aboutme(){
                     <div><ul>
                         <li><Item text={<h4>Lavner Education: Technology Instructor</h4>} ltext={<div><p>Taught a class informing campers about current implementations, software designs, and future uses of popular cryptocurrencies and blockchains</p>
         <p>Led children through various games and activities focusing on teamwork and cooperation to help build strong leadership and communication skills</p></div>}></Item></li>
-                        <li><Item text={<h4>Domino's Pizza: Delivery Specialist &amp; Customer Service Representative</h4>}
+                        <li><Item text={<h4>Domino&apos;s Pizza: Delivery Specialist &amp; Customer Service Representative</h4>}
                         ltext={
                         <div><p>Improved communication skills from working with both customers and a team</p>
                         <p>Enhanced my mapping/navigational skills which I use to understand complex concepts</p>
