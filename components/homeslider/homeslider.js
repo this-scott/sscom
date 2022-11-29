@@ -41,7 +41,7 @@ function Homeslider() {
                     </SwiperSlide>
             </Swiper>
             <div className={slidecss.fancytext}>
-                <h1>The Scott Styslinger Experience</h1> Just a small website</div>
+                <h1>The Scott Styslinger Experience</h1> Trapped in a constant debate between optimizing for mobile or learning React native</div>
             </div>
     )
 }
