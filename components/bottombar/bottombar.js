@@ -2,7 +2,7 @@ import bbar from './bbar.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function bottombar() {
+export default function Bottombar() {
     return (
         <footer className={bbar.barcontainer}>
             <div className={bbar.socials}>

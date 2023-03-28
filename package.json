@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^0.27.2",
     "canvas": "^2.9.0",
+    "framer-motion": "^8.4.3",
     "fs": "^0.0.1-security",
     "next": "^12.1.6",
     "react": "^17.0.2",
@@ -17,7 +18,9 @@
     "react-h5-audio-player": "^3.8.3",
     "react-hook-form": "^7.33.1",
     "react-pdf": "^5.7.0",
-    "swiper": "^8.0.3"
+    "react-tsparticles": "^2.7.1",
+    "swiper": "^8.0.3",
+    "tsparticles": "^2.7.1"
   },
   "devDependencies": {
     "eslint": "8.8.0",

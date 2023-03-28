@@ -4,6 +4,7 @@ import React from 'react'
 import Homeslider from '../components/homeslider/homeslider'
 import Aboutme from '../components/aboutme/aboutme'
 import Bottombar from '../components/bottombar/bottombar'
+import Overhaul from '../components/overhaul/overhaul'
 
 
 //home page
@@ -15,8 +16,7 @@ export default function Home() {
       <title>Home - ScottStyslinger.com</title>
       <meta name="keywords" content='Scott Styslinger, Scott, Styslinger'/>
     </Head>
-    <Homeslider></Homeslider>
-    <Aboutme></Aboutme>
+    <Overhaul></Overhaul>
     </>
   )
 }

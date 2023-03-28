@@ -1,4 +1,4 @@
-import Head from "next/head"
+/*import Head from "next/head"
 import Formtest from "../components/formtest/formtest"
 
 export default function DB() {
@@ -11,4 +11,4 @@ export default function DB() {
         <Formtest></Formtest>
         </>
     )
-}
+}*/

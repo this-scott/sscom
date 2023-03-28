@@ -16,14 +16,6 @@ export const people = [
         email: "ojm15@pitt.edu"
     },
     {
-        name: "Melissa Yan", 
-        image: "/images/M.jpg", 
-        college: "New York University, Stern School of Business",
-        major: "Finance", 
-        fields: "Consulting, Data science and analytics, Impact Investing", 
-        email: "my2457@stern.nyu.edu"
-    },
-    {
         name: "Sean Clements", 
         image: "/images/7.jpg", 
         college: "UMBC, Some Computer Science School", 

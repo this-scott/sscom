@@ -11,7 +11,9 @@ export default function Cast() {
         <title>The Cast</title>
         <meta name="keywords" content='Scott Styslinger, Scott, Styslinger'/>
       </Head>
+      <Navbar></Navbar>
       <CardContainer></CardContainer>
+      <Bottombar></Bottombar>
       </>
     )
   }
